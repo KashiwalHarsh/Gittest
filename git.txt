@@ -12,6 +12,8 @@
 
 * git add <file name> . --> to add all files to staging area
 
+* git rm --cached -r . --> to remove all the files from staging area
+
 * git commit -m "changes description" --> to commit changes to the file with a message on what changes are made
 
 * git log --> date and time about the commited files
@@ -34,6 +36,9 @@ and we need staging area to ensure every file needed to commit are staged or not
 ********************************************************************************
 # Git ignore
 
-helps to prevent certain files to not commit such as passwords and API keys
+*helps to prevent certain files to not commit such as passwords and API keys
+
+*touch .gitignore --> a file that conatins all the files/folder names not to be commited
+#(inside .gitignore) *.txt --> ignores all files with .txt extension
 ********************************************************************************
 
