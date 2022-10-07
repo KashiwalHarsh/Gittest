@@ -1,0 +1,9 @@
+
+##------GIT and GITHUB
+
+
+* git init --> to initialize the git repository in directory which will create .git folder inside directory
+
+* ls -a --> to show hidden folders
+
+* git status --> tell you any changed files or untracked files
