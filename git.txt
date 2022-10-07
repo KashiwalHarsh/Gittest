@@ -7,3 +7,7 @@
 * ls -a --> to show hidden folders
 
 * git status --> tell you any changed files or untracked files
+
+* git add <file name> --> add file to staging area
+
+* git add <file name> . --> to add all files to staging area
