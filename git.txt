@@ -15,3 +15,13 @@
 * git commit -m "changes description" --> to commit changes to the file with a message on what changes are made
 
 * git log --> date and time about the commited files
+
+
+# git add pushes files to the staging area
+and we need staging area to ensure every file needed to commit are staged or not
+# we commit the files in staging area once we are happy about out staged data  
+# after we commit file moves to local repository
+
+* git diff <filename> --> is used to check the differnce in the file after it is modified 
+
+* git checkout <filename> --> is used to roll back to the previous version of the file
