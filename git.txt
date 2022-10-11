@@ -41,9 +41,19 @@ and we need staging area to ensure every file needed to commit are staged or not
 *touch .gitignore --> a file that conatins all the files/folder names not to be commited
 #(inside .gitignore) *.txt --> ignores all files with .txt extension
 *every file name should be in new line to make it ignore
+
 ********************************************************************************
 
 # Git Cloning
 
 * command to pull down all the version of remote repository to working directory
 * git clone <link to repo> --> will clone the github repository to local computer
+
+********************************************************************************
+
+# Git Branching and Merging
+
+* command to pull down all the version of remote repository to working directory
+* git clone <link to repo> --> will clone the github repository to local computer
+
+********************************************************************************
