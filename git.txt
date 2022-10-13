@@ -53,7 +53,45 @@ and we need staging area to ensure every file needed to commit are staged or not
 
 # Git Branching and Merging
 
-* command to pull down all the version of remote repository to working directory
-* git clone <link to repo> --> will clone the github repository to local computer
+* Branches - 1-----2----------3---------------4-----------5
+		    ````               `````
+			````3-----4````
+
+"in this example suppose we are working on a project at point 2 and then i feel like experimenting with it while continuing the basic working of the project
+so i create a brach 3 to work on experiment and other base branch 3 keeps on working as it is
+if i found the expermint brach with 3 and 4 commited brach fruitful then i will merge the 4th branch with the base 4th brach"
+
+## you only commit the experimental branch with master branch when you feel like the feature or experiment is really working out
+
+
+* git branch <name of new branch>  --> create a branch
+* git branch -> to know what branch u ar working on
+* git checkout <name of branch> -> to change working branch
+--
+when you make changes in second branch and you commit them and then when you checout to main branch again the files will have same data as changes from branch will not reflect when on main branch
+
+## we do not push changes in experimental second brach to remote repo unless it is offical 
+and we do it by mergin it in main and then push to remote repo
+
+--
+to merge changes -- first change branch to main/master
+
+* git merge <branch name> -> to merge a branch to main
+
+doing it in github is more easy do try 
+we can even compare changes in github 
+********************************************************************************
+
+
+# Git Forking and Pull request
+
+* forking mean making a copy of remote repoisitory in github , so that you can manage the repository and work on it without afffecting the orignal repo
+
+then you will work on that repo locally and make some feature 
+then you will push the changes to remote repo
+after that 
+you will make a pull request to the owner of orignal repo to show them your updates and if they feel like the changes are great for them then they will merge you pull requet
+
+* pull request is when you make some changes and you ask the owner of the repo to look at the changes i have made and if they are friut full then merge the changes made by me and the owner will merge the changes
 
 ********************************************************************************
