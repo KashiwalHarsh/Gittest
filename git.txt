@@ -10,7 +10,7 @@
 
 * git add <file name> --> add file to staging area
 
-* git add <file name> . --> to add all files to staging area
+* git add . --> to add all files to staging area
 
 * git rm --cached -r . --> to remove all the files from staging area
 
