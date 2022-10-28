@@ -105,3 +105,12 @@ you will make a pull request to the owner of orignal repo to show them your upda
 
 to create a copy of a project to do experiment in remote repository - git branch
 to create a copy of a project to do experiment in local repository - git clone
+
+********************************************************************************
+
+---ERRORS---
+
+when you add readme in remote repository, the local repository rejects to push changes to the remote repository beacause ...
+It happens when we are trying to push to remote repository but has created a new file on remote which has not been pulled yet, let say Readme.
+
+so first pull those changes in remote repository to local repository and then push the changes to remote repository
