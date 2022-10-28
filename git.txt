@@ -7,6 +7,8 @@ Repository -- we store files in a folder,photos in an album, so hence we store c
 
 * git init --> to initialize the git repository in directory which will create .git folder inside directory
 
+* ls --> show files in the folder
+
 * ls -a --> to show hidden folders
 
 * git status --> tell you any changed files or untracked files
@@ -98,3 +100,8 @@ you will make a pull request to the owner of orignal repo to show them your upda
 * pull request is when you make some changes and you ask the owner of the repo to look at the changes i have made and if they are friut full then merge the changes made by me and the owner will merge the changes
 
 ********************************************************************************
+
+---Important points---
+
+to create a copy of a project to do experiment in remote repository - git branch
+to create a copy of a project to do experiment in local repository - git clone
