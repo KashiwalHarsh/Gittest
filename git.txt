@@ -114,3 +114,19 @@ when you add readme in remote repository, the local repository rejects to push c
 It happens when we are trying to push to remote repository but has created a new file on remote which has not been pulled yet, let say Readme.
 
 so first pull(git pull) those changes in remote repository to local repository and then push the changes to remote repository
+
+
+
+********************************************************************************
+
+How to make open source contribution - step by step 
+
+
+-fork the repository in github you like to make contribution to
+-if it is complicated code file then clone that forked repository locally else do changes on github only.
+-make changes to code and test the code for your work
+-now add the changes to staging area and comit changes
+-after that push changes to remote repository
+-now make a pull request to the author of orignal project
+-once the author reviws your work and merge the pull requrest
+-your contribution is done
