@@ -1,5 +1,5 @@
 
-##------GIT and GITHUB
+##------GIT and GITHUB---------
 
 
 Repository -- we store files in a folder,photos in an album, so hence we store code files in a repository
