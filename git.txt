@@ -2,6 +2,9 @@
 ##------GIT and GITHUB
 
 
+Repository -- we store files in a folder,photos in an album, so hence we store code files in a repository
+
+
 * git init --> to initialize the git repository in directory which will create .git folder inside directory
 
 * ls -a --> to show hidden folders
